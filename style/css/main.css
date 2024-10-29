@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.header {
+  background-color: #74c69d;
+  width: 100%;
+}
+
+.header__container {
+  width: 82%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.header__start {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  gap: 18px;
+}
+
+.header__nav--list {
+  display: flex;
+  gap: 30px;
+}
+
+.header__link {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 19%;
+  margin-bottom: 83px;
+}
+
+.header__info {
+  width: 29%;
+}
+
+.header__info h4,
+.header__info p {
+  font-size: 16px;
+}
+
+.header__info h4 {
+  letter-spacing: 3px;
+}
+
+.header__info h1 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.object {
+  margin-top: 25px;
+  padding: 10px 0;
+}
+
+.object__link {
+  margin-top: 20px;
+  padding: 10px 48px;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.header__info--idea {
+  width: 52%;
+}
+
+.header__info--idea img {
+  width: 100%;
+}
+
+.header__info,
+.header__link,
+.heading {
+  color: #fff;
+}
+
+.header__info h4,
+.header__info h1 {
+  margin-bottom: 15px;
+}/*# sourceMappingURL=main.css.map */
