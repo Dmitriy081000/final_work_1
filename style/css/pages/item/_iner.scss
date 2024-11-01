@@ -1,0 +1,34 @@
+.iner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 60px;
+
+}
+
+.block {
+    width: 82%;
+    .social img{
+        width: 100%;
+    }
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 30px;
+}
+
+.desc h2{
+    font-family: 'Crimson Text';
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.desc p {
+    color: rgba(33, 37, 41, 0.5);
+    font-weight: 400;
+}

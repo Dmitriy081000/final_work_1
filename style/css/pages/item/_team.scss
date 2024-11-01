@@ -1,0 +1,33 @@
+.team {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    padding: 41px 0;
+}
+
+.shadow {
+    padding: 15px 38px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.card {
+    display: flex;
+    gap: 18px;
+    align-items:flex-start ;
+    flex-direction: column;
+
+    .picture {
+        padding: 19px 13.5px;
+    }
+}
+
+

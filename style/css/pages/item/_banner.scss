@@ -37,21 +37,21 @@
         gap: 40px;
     }
 
-    .box__btm {
-        background-color: #212529;
-        width: 170px;
-        height: 48px;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .btm__link {
-            text-decoration: none;
-            color: #fff;
-            font-weight: 400;
-            font-size: 1.25rem;
+}
 
-        }
+.box__btm {
+    background-color: #212529;
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .btm__link {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.25rem;
+
     }
-
 }

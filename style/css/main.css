@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -269,7 +270,8 @@ body {
   align-items: center;
   gap: 40px;
 }
-.banner .box__btm {
+
+.box__btm {
   background-color: #212529;
   width: 170px;
   height: 48px;
@@ -278,9 +280,101 @@ body {
   align-items: center;
   justify-content: center;
 }
-.banner .box__btm .btm__link {
+.box__btm .btm__link {
   text-decoration: none;
   color: #fff;
   font-weight: 400;
   font-size: 1.25rem;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.iner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  gap: 60px;
+}
+
+.block {
+  width: 82%;
+}
+.block .social img {
+  width: 100%;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.desc h2 {
+  font-family: "Crimson Text";
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.desc p {
+  color: rgba(33, 37, 41, 0.5);
+  font-weight: 400;
+}
+
+.team {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profil {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+  padding: 41px 0;
+}
+
+.shadow {
+  padding: 15px 38px;
+  box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.card {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.card .picture {
+  padding: 19px 13.5px;
+}
+
+.wrap {
+  background: #74C69D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 39px;
+  gap: 20px;
+  padding: 31px 0;
+}
+
+.icon {
+  width: 82%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.finish p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+/* © LOGO, 2019. All ri *//*# sourceMappingURL=main.css.map */

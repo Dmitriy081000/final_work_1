@@ -3,5 +3,8 @@
     width: 100%;
     font-family: 'Work Sans';
 }
-@import 'header';
-@import 'banner';
+@import 'pages/header';
+@import 'pages/item/banner';
+@import 'pages/item/iner';
+@import 'pages/item/team';
+@import 'pages/footer';
