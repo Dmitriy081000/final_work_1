@@ -1,0 +1,57 @@
+.banner {
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 0;
+    gap: 55px;
+    &__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        & h6 {
+            font-size: 1rem;
+            letter-spacing: 5px;
+            color: #74c69d;
+            font-weight: 700;
+        }
+        & h2 {
+            font-family: 'Crimson Text';
+            margin: 16px 0;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        & p {
+            font-size: 1.25rem;
+            line-height: 25px;
+            font-weight: 400;
+        }
+    }
+
+    .banner__partner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .box__btm {
+        background-color: #212529;
+        width: 170px;
+        height: 48px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .btm__link {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 400;
+            font-size: 1.25rem;
+
+        }
+    }
+
+}
