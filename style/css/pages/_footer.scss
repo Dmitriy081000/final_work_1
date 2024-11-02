@@ -1,51 +1,37 @@
-.wrap {
+footer {
     background: #74C69D;
+    display: flex;
+    margin-top: 39px;
+
+}
+
+.wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 39px;
+    margin: 31px auto;
     gap: 20px;
-    padding: 31px 0;
 }
 
 .icon {
-    width: 82%;
+    // width: 82%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin: 0 auto;
 }
 
 .finish p{
-    // font-family: 'Work Sans';
 font-weight: 400;
 font-size: 1.25rem;
 color: #fff;
 }
 
-
-
-/* © LOGO, 2019. All ri */
-
-// width: 326px;
-// height: 25px;
-
-// /* Typography/Sub-Heading/Regular */
-// font-family: 'Work Sans';
-// font-style: normal;
-// font-weight: 400;
-// font-size: 20px;
-// line-height: 125%;
-// /* identical to box height, or 25px */
-// text-align: right;
-
-// /* Color / White / 100 */
-// color: #FFFFFF;
-
-// mix-blend-mode: normal;
-
-// /* Inside auto layout */
-// flex: none;
-// order: 1;
-// flex-grow: 0;
+@media screen and (min-width: 768px) {
+    .wrap {
+        width: 82%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 50px auto;
+    }
+} 

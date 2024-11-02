@@ -24,10 +24,68 @@
     gap: 18px;
     align-items:flex-start ;
     flex-direction: column;
+    & p {
+        font-weight: 400;
+        color: #212529BF;
+    }
+
+    & h4 {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+}
+
+.picture {
+    padding: 19px 13.5px;
+}
+
+@media screen and (min-width: 768px) {
+    .profil {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .profil {
+        gap: 25px;
+    }
+
+    .shadow {
+        padding: 10px 20px;
+    }
+
+    .card {
+        gap: 10px;
+    }
+
+    .picture {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .profil {
+        gap: 35px;
+        justify-content: space-between;
+        width: 82%;
+
+    }
+
+    .shadow {
+        padding: 15px 32px;
+    }
+
+    .card {
+        gap: 18px;
+        // & h4 {
+        //     font-size: 1.25rem;
+        //     font-weight: 700;
+        // }
+    }
 
     .picture {
         padding: 19px 13.5px;
     }
 }
-
-
